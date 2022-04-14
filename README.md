@@ -1,2 +1,2 @@
 # musicshop
-my first music shop
+## Müzik aletlerinin satışının yapıldığı siteyi bootstrap ile tasarlamaya çalıştım.
