@@ -1,0 +1,168 @@
+/* CSS RESET KODLARI */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET KODLARI */
+
+/* Üst Kısım Menü Çubuğu Başlangıç */
+
+.jumbotron {
+    background-color: #303640;
+    height:50px;
+    position: relative;
+}
+.menu {
+    /* border: 1px solid #fff; */
+    width: 550px;
+    height:50px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul li {
+    display: block;
+    float: left;
+    height: 50px;
+    width: auto;
+    /* margin:0 auto 0 20px; */
+    /* border: 1px solid #fff; */
+    padding:15px 0 0 0;
+    margin-left:20px;
+    
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+}
+.menu ul li a:hover {
+    color: #fff;
+}
+.isimm {
+    margin-top: -4px;
+}
+.menu ul li a #isim {
+    color: rgb(205, 0, 0);
+    float: left;
+    font-size: 20px;
+}
+.menu ul li a #isim:hover {
+    color: rgb(255, 151, 151);
+}
+
+body {
+    background-color:#E9ECEF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Üst Kısım Menü Çubuğu Bitiş */
+
+.col-sm-12 {
+    margin-top: 50px;
+    /* border:1px solid #000; */
+    text-align: center;
+}
+.baslik {
+    color: rgb(180, 74, 255);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#drum1 {
+    display: block;
+    margin:15px 0 0 0;
+    /* border:1px solid #000 */
+}
+.col-sm-3 a {
+    text-decoration: none;
+}
+#drum1price {
+    display: block;
+    /* border:1px solid #000; */
+    margin: 5px 0 60px 0;
+    width:40px;
+    height:15px;
+    background-color: #5c626c;
+    color: #fff;
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-size:12px;
+    text-align: center;
+    padding:2px 0 0 0;
+}
+#drum2 {
+    display: block;
+    margin:15px 0 0 0;
+    /* border:1px solid #000 */
+}
+#drum2price {
+    display: block;
+    /* border:1px solid #000; */
+    margin: 5px 0 0 0;
+    width:50px;
+    height:15px;
+    background-color: #5c626c;
+    color: #fff;
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-size:12px;
+    text-align: center;
+    padding:1px 0 0 0;
+}
+#drum3 {
+    display: block;
+    margin:15px 0 0 0;
+    /* border:1px solid #000 */
+}
+#drum3price {
+    display: block;
+    /* border:1px solid #000; */
+    margin: 5px 0 0 0;
+    width:50px;
+    height:15px;
+    background-color: #5c626c;
+    color: #fff;
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    font-size:12px;
+    text-align: center;
+    padding:1px 0 0 0;
+}
